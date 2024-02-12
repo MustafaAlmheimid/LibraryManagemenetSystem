@@ -1,0 +1,80 @@
+ERROR:
+Date and Time: 2024-01-20 13:02:52
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:21:03
+Message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR:
+Date and Time: 2024-01-20 15:21:12
+Message: Table 'database_name.users' doesn't exist
+ERROR:
+Date and Time: 2024-01-20 15:21:19
+Message: Table 'database_name.borrowing' doesn't exist
+ERROR:
+Date and Time: 2024-01-20 15:21:38
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Coding', 'adminPP', 'admin')' at line 4
+ERROR:
+Date and Time: 2024-01-20 15:22:04
+Message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR:
+Date and Time: 2024-01-20 15:28:15
+Message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR:
+Date and Time: 2024-01-20 15:29:14
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '
+            firstName varchar(40) NOT NULL,
+            lastName varchar(4...' at line 2
+ERROR:
+Date and Time: 2024-01-20 15:29:42
+Message: Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR:
+Date and Time: 2024-01-20 15:33:53
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:34:07
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:34:07
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:34:08
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:34:09
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 15:35:01
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Coding', 'adminPP', 'admin')' at line 4
+ERROR:
+Date and Time: 2024-01-20 15:46:12
+Message: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's character and Superman\\'s powers, the importance of the radio, how the ada...' at line 4
+ERROR:
+Date and Time: 2024-01-20 15:46:58
+Message: Duplicate entry 'alwan.mohamad@gmail.com' for key 'email'
+ERROR:
+Date and Time: 2024-01-20 15:51:57
+Message: Unknown database 'database_name'
+ERROR:
+Date and Time: 2024-01-20 16:05:13
+Message: Commands out of sync; you can't run this command now
+ERROR:
+Date and Time: 2024-01-20 16:05:13
+Message: Commands out of sync; you can't run this command now
+ERROR:
+Date and Time: 2024-01-20 16:06:16
+Message: Commands out of sync; you can't run this command now
+ERROR:
+Date and Time: 2024-01-20 16:06:16
+Message: Commands out of sync; you can't run this command now
+ERROR:
+Date and Time: 2024-01-20 16:08:51
+Message: Table 'users' already exists
+ERROR:
+Date and Time: 2024-01-20 16:08:51
+Message: Duplicate entry 'alwan.mohamad@gmail.com' for key 'email'
+ERROR:
+Date and Time: 2024-01-20 16:09:03
+Message: Commands out of sync; you can't run this command now
+ERROR:
+Date and Time: 2024-01-20 16:09:03
+Message: Commands out of sync; you can't run this command now

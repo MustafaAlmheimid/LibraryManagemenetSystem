@@ -1,0 +1,427 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+:root {
+  ---primary-contactus-circle-after-bg: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+}
+
+.col-md-16 {
+  width: 50%;
+  float: left;
+  padding: 25px;
+}
+
+
+
+p {
+  
+}
+
+body {
+  transition: background 0.2s linear;
+  overflow: overlay;
+  overflow-x: hidden;
+  line-height: 1.5px;
+}
+
+body.dark {
+  background-color: #242425;
+}
+
+/* Scrollbar Effects Goes Here */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #424874; /* East Bay */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #DCD6F7; /* Moon Raker */
+}
+
+
+
+/* Scrollbar Effects Goes Here */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #727ab6; /* East Bay */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #DCD6F7; /* Moon Raker */
+}
+
+/* NavBar Styles goes here */
+
+/* general styling of the navbar like the background color, alignment of the items, gap between the items */
+.gs-navbar {
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  box-shadow: 0px 5px 20px 1px rgba(147, 123, 201, 0.5);
+  padding: 10px;
+  
+  display: flex;
+  align-items: center;
+  font-family: Lato;
+  width:100%;
+ 
+}
+.gs-navbar.transparent {
+  background:  #ffffff; /* Add additional color stops for smoother transition */
+  opacity: 0.8; /* Adjust the opacity as needed */
+}
+
+/* for the styling the name of community beside the logo */
+.gs-navbar .name {
+  font-size: 2.6vmin;
+  line-height: 1;
+  font-weight: 900;
+  font-family: "Cinzel", serif;
+  color: #c06378; /* Ghost */
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.gs-navbar .name p {
+  font-family: "Cinzel", serif;
+  margin-bottom: 5px;
+}
+
+/* to set the size of the logo and make it circular */
+.gs-navbar img {
+  height: 50px;
+ 
+  margin-left: 60px;
+}
+
+.options {
+  margin-left: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling the items in the navbar (except logo and community name) here */
+.options a {
+  text-decoration: none;
+  color: #3b3f44; /* Ghost */
+  opacity: 0.8;
+  margin: 0 8px;
+  font-size: 1.2rem;
+ 
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+
+.options a:hover {
+  border-bottom: 1px solid #fff;
+  border-radius: 4.5px;
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+  font-size: 1.2rem;
+  font-weight: bold;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 15px #c8f5cf, 0 0 25px;
+  }
+  to {
+    text-shadow: 0 0 15px #c8f5cf, 0 0 25px;
+  }
+}
+.options .search {
+  margin-left: 12px; 
+}
+.options .dashboard-link {
+  margin-left: 2px; /* Adjust the margin as needed */
+}
+.toggle {
+  display: none;
+  /*toggle bar will be hidden until respective screen size meets*/
+}
+
+
+/* Header Section Styles goes here */
+
+/* Header Section Styles goes here */
+
+.header {
+  width: 100%;
+  height: 90vh;
+  background: url("Untitled.png");
+  background-position: bottom;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align all content to the right */
+  position: relative;
+  background-attachment: fixed;
+   /* Add a right margin of 200 pixels */
+}
+
+.header-content {
+  margin-bottom: 240px;
+  color: #645dc4;
+  text-align: right;
+  margin-right: 160px; /* Align individual text content to the right */
+}
+
+.header-content h2,
+.header-content h3 {
+  font-family: "Playfair Display SC", serif;
+  font-weight: bold;
+}
+
+.header-content h2 {
+  font-size: 7vmin;
+}
+
+.header-content h3 {
+  font-size: 5vmin;
+}
+
+.header-content h3 span {
+  color: #ff29ad;
+  font-family: "Cinzel", serif;
+}
+
+
+/* header divider wave  */
+
+.header-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.header-wave svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 177px;
+}
+
+.header-wave .shape-fill {
+  fill: #ffffff;
+  position: absolute;
+}
+
+
+/* css for header ends here */
+
+/*  About Us section Styles goes here */
+
+.aboutus-section-wrapper {
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-section-container {
+  width: 95%;
+  /* height: 100vh; */
+  padding: 20px;
+  /* position: absolute; */
+  border-radius: 5px;
+  /* overflow: scroll; */
+}
+
+.aboutus-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.aboutus-img-container img {
+  height: 10px;
+  width: 300px;
+  
+}
+
+.aboutus-text-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2rem;
+  flex-direction: column;
+  
+}
+
+.aboutus-text-container h1 {
+  font-size: 50px;
+  /* font-family: "Lato", sans-serif; */
+
+  padding: 10px 0 0;
+  width: 100%;
+  text-align: center;
+}
+
+.aboutus-text-container p {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+.aboutus-text-container span {
+  color: rgb(51, 28, 184);
+
+  
+}
+
+.aboutus-text-container a {
+  text-decoration: none;
+  padding: 12px;
+  margin-top: 1rem;
+  background-color: rgb(247, 47, 130);
+  color: white;
+  align-self: center;
+  font-size: 20px;
+  border-radius: 15px;
+  transition: 0.3s all ease-in-out;
+}
+
+.aboutus-text-container a:hover {
+  text-decoration: none;
+  background-color: lightgrey;
+  color: white;
+}
+
+
+@media screen and (max-width: 1600px) {
+  .aboutus-container {
+    width: 95%;
+  }
+
+  .aboutus-img-container img {
+    height: 300px;
+    width: 400px;
+    margin: 0 0 50px 0;
+  }
+
+  .aboutus-text-container h1 {
+    font-size: 40px;
+  }
+
+  .ourservices-container {
+    width: 95%;
+  }
+
+  .ourservices-img-container img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .ourservices-text-container h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .aboutus-container {
+    flex-direction: column;
+  }
+
+  .aboutus-text-container {
+    align-items: center;
+  }
+
+  .ourservices-container {
+    flex-direction: column;
+  }
+
+  .ourservices-text-container {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .aboutus-img-container img {
+    height: 300px;
+    width: 300px;
+    margin: 0 0 50px 0;
+  }
+
+  .aboutus-text-container p {
+    font-size: 20px;
+  }
+
+  .ourservices-img-container img {
+    height: 300px;
+    width: 300px;
+    margin: 0 0 50px 0;
+  }
+
+  .ourservices-text-container p {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/*Scroll-to-top button CSS*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(168, 186, 248, 0.267);
+  color: white;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: rgb(18, 18, 18);
+}
